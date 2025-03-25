@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/team-project/",
+    "build": "vite build --base=/117-team-progect-yacht-rent-12/",
     "preview": "vite preview"
   },
   "devDependencies": {
