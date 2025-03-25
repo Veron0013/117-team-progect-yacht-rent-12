@@ -1,6 +1,5 @@
 :root {
-  /* font-family: Inter, Avenir, Helvetica, Arial, sans-serif; */
-  font-family: 'Inter', sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 400;
@@ -20,15 +19,29 @@
   -webkit-text-size-adjust: 100%;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  display: flex;
   flex-wrap: wrap;
   align-content: center;
   flex-direction: column;
-  min-width: 100vw;
+  min-width: 100%;
   min-height: 100vh;
   margin: 0;
   background-color: #0e1823;
+}
+
+/* ця фігня працює лише до 1440 */
+
+@media screen and (min-width: 1440px) {
+  body {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+  }
 }
 
 main {

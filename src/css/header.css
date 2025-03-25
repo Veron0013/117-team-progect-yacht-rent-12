@@ -1,7 +1,11 @@
 .header {
-  margin-top: 16px;
-  position: relative;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 100;
+  min-width: 280px;
+  max-width: 375px;
 }
 
 .nav {
@@ -14,6 +18,8 @@
   height: 42px;
   background-color: #FBFBFB;
   padding: 0 20px;
+  position: relative;
+  z-index: 3;
 }
 
 /* nav */
@@ -101,7 +107,9 @@
   }
 
   .header {
-    margin-top: 32px;
+    top: 32px;
+    max-width: 768px;
+    width: 100%;
   }
 
   .header .container {
@@ -155,6 +163,11 @@
     max-width: 1280px;
   }
 
+  .header {
+    max-width: 1280px;
+    width: 100%;
+  }
+
   .nav {
     padding: 4px 30px;
   }
@@ -168,6 +181,11 @@
   .header .container {
     max-width: 1440px;
   }
+
+  .header {
+    max-width: 1440px;
+    width: 100%;
+  }
 }
 
 /* Mobile burger menu button */
@@ -177,7 +195,8 @@
   cursor: pointer;
   padding: 10px;
   position: absolute;
-  right: 40px;
+  z-index: 5;
+  right: 10px;
   top: 50%;
   transform: translateY(-50%);
 }

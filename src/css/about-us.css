@@ -6,14 +6,22 @@
     align-items: center;
     margin: 0 auto;
     margin-bottom: 80px;
-
 }
 
 .about-us-text-cont {
     padding-top: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 6px;
+    padding-right: 6px;
     padding-bottom: 0;
+}
+
+@media screen and (min-width:350px) {
+    .about-us-text-cont {
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 0;
+    }
 }
 
 .about-us-title {
@@ -64,14 +72,17 @@
     padding: 0;
     width: 100%;
     background-size: cover;
+    border-radius: 0 24px 0 0;
+}
+
+.img-main {
+    border-radius: 24px;
 
 }
 
 @media screen and (min-width: 768px) {
     .about-us {
         max-width: 704px;
-
-
     }
 
     .about-us-text-cont {
@@ -88,8 +99,6 @@
         max-width: 536px;
         width: 100%;
         margin-bottom: 50px;
-
-
     }
 
     .about-us-list {
@@ -107,10 +116,8 @@
         font-size: 23px;
         max-width: 356px;
         width: 100%;
-
-
-
     }
+
 
     .about-us-second-text {
         font-size: 13px;
@@ -119,6 +126,7 @@
         width: 100%;
     }
 
+
     .about-us-img {
         padding: 0;
         max-width: 704px;
@@ -126,14 +134,12 @@
         background-size: cover;
 
     }
-
 }
 
 @media screen and (min-width: 1280px) {
 
     .about-us {
         max-width: 1180px;
-
     }
 
     .about-us-text-cont {
@@ -165,7 +171,6 @@
         max-width: 324px;
     }
 
-    .about-us-second-text {}
 
     .about-us-img {
         padding: 0;
@@ -188,19 +193,14 @@
 
     .about-us-title {
         max-width: 536px;
-
-
     }
 
-    .about-us-list {}
+
 
     .about-us-items {
         max-width: 376px;
-
-
     }
 
-    .about-us-second-text {}
 
     .about-us-img {
         padding: 0;
