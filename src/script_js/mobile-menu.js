@@ -9,13 +9,13 @@ function toggleClass(objForm) {
 	return function () {
 		objForm.classList.toggle("is-open");
 		bodyElement.classList.toggle("locked");
+		console.log(myBurgerIcon);
 
 		if (objForm.classList.contains("is-open")) {
 			myBurgerIcon.setAttribute("href", "/img/sprite.svg#icon-close-iscon");
 		} else {
 			myBurgerIcon.setAttribute("href", "/img/sprite.svg#icon-menu-icon");
 		}
-		console.log(myBurgerIcon);
 	};
 }
 
