@@ -15,7 +15,7 @@ function toggleClass(objForm) {
 		} else {
 			myBurgerIcon.setAttribute("href", "/img/sprite.svg#icon-menu-icon");
 		}
-
+		console.log(myBurgerIcon);
 	};
 }
 
