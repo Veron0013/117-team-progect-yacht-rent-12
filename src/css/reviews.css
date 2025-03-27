@@ -155,4 +155,39 @@
     color: rgba(4, 3, 6, 0.4);
 }
 
+.reviews-block {
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.swiper-wrapper {
+    display: flex;
+    align-items: stretch;
+    width: max-content;
+}
+
+.swiper-slide {
+    flex-shrink: 0;
+    width: auto;
+}
+
+.reviews .swiper-pagination,
+.reviews .swiper-button-prev,
+.reviews .swiper-button-next {
+    display: none;
+}
+
+/*.reviews-block-list {
+    display: flex;
+    padding: 0;
+    list-style: none;
+}*/
+
+/*.reviews-block-item {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}*/
+
 /* #endregion reviews */
