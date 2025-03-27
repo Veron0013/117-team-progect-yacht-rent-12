@@ -15,8 +15,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <script type="module" crossorigin src="/117-team-progect-yacht-rent-12/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/117-team-progect-yacht-rent-12/assets/index-LGZ5Qm0X.css">
+    <link rel="stylesheet" crossorigin href="/117-team-progect-yacht-rent-12/assets/index-zaMEq8Z_.css">
   </head>
   <body>
     <header class="header">
@@ -330,6 +332,7 @@
             placeholder="Phone number"
             required
             pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$"
+            title="+38-999-999-99-99"
           />
           <textarea class="rent-form-textarea" name="user-comment" placeholder="Comment"></textarea>
         </div>
@@ -359,9 +362,9 @@
         out what they have to say about their journey with us.
       </p>
     </div>
-    <div class="reviews-block">
-      <ul class="reviews-block-list">
-        <li class="reviews-block-item">
+    <div class="reviews-block swiper">
+      <ul class="reviews-block-list swiper-wrapper">
+        <li class="reviews-block-item swiper-slide">
           <picture>
             <source srcset="/117-team-progect-yacht-rent-12/assets/john-wax-DZgmLmfZ.jpg 1x, /117-team-progect-yacht-rent-12/assets/john-wax@2x-sWnWmBHs.jpg 2x" />
             <img class="reviews-images" src="/117-team-progect-yacht-rent-12/assets/john-wax-DZgmLmfZ.jpg" alt="John Wax" width="56"
@@ -372,7 +375,7 @@
             spacious, comfortable, and luxurious, and the crew took care of everything.
           </p>
         </li>
-        <li class="reviews-block-item rbi2">
+        <li class="reviews-block-item swiper-slide">
           <picture>
             <source
               srcset="/117-team-progect-yacht-rent-12/assets/victoria-romashenko-DjKozCrf.jpg 1x, /117-team-progect-yacht-rent-12/assets/victoria-romashenko@2x-CJ3EFjR3.jpg 2x" />
@@ -388,7 +391,45 @@
             with all the amenities we needed, and the crew was attentive and friendly.
           </p>
         </li>
-        <li class="reviews-block-item rbi3">
+        <li class="reviews-block-item swiper-slide">
+          <picture>
+            <source srcset="/117-team-progect-yacht-rent-12/assets/ihor-trachuk-BoVPMriD.jpg 1x, /117-team-progect-yacht-rent-12/assets/ihor-trachuk@2x-Cv6Ov0CL.jpg 2x" />
+            <img class="reviews-images" src="/117-team-progect-yacht-rent-12/assets/ihor-trachuk-BoVPMriD.jpg" alt="Ihor Trachuk" width="56"
+          /></picture>
+          <h3 class="reviews-block-title">Ihor Trachuk</h3>
+          <p class="reviews-block-text">
+            The Azimut 80 was the most luxurious yacht I've ever been on. The cabins were spacious and elegant, and the
+            outdoor areas were perfect for relaxing and entertaining. Worth every penny!
+          </p>
+        </li>
+        <li class="reviews-block-item swiper-slide">
+          <picture>
+            <source srcset="/117-team-progect-yacht-rent-12/assets/john-wax-DZgmLmfZ.jpg 1x, /117-team-progect-yacht-rent-12/assets/john-wax@2x-sWnWmBHs.jpg 2x" />
+            <img class="reviews-images" src="/117-team-progect-yacht-rent-12/assets/john-wax-DZgmLmfZ.jpg" alt="John Wax" width="56"
+          /></picture>
+          <h3 class="reviews-block-title">John Wax</h3>
+          <p class="reviews-block-text">
+            I rented the Lagoon 620 with my family for a week-long vacation and it was the best decision ever. The yacht was
+            spacious, comfortable, and luxurious, and the crew took care of everything.
+          </p>
+        </li>
+        <li class="reviews-block-item swiper-slide">
+          <picture>
+            <source
+              srcset="/117-team-progect-yacht-rent-12/assets/victoria-romashenko-DjKozCrf.jpg 1x, /117-team-progect-yacht-rent-12/assets/victoria-romashenko@2x-CJ3EFjR3.jpg 2x" />
+            <img
+              class="reviews-images"
+              src="/117-team-progect-yacht-rent-12/assets/victoria-romashenko-DjKozCrf.jpg"
+              alt="Victoria Romashenko"
+              width="56"
+          /></picture>
+          <h3 class="reviews-block-title">Victoria Romashenko</h3>
+          <p class="reviews-block-text">
+            The Sunseeker Manhattan 66 was the perfect choice for our romantic getaway. The yacht was beautifully designed,
+            with all the amenities we needed, and the crew was attentive and friendly.
+          </p>
+        </li>
+        <li class="reviews-block-item swiper-slide">
           <picture>
             <source srcset="/117-team-progect-yacht-rent-12/assets/ihor-trachuk-BoVPMriD.jpg 1x, /117-team-progect-yacht-rent-12/assets/ihor-trachuk@2x-Cv6Ov0CL.jpg 2x" />
             <img class="reviews-images" src="/117-team-progect-yacht-rent-12/assets/ihor-trachuk-BoVPMriD.jpg" alt="Ihor Trachuk" width="56"
@@ -400,6 +441,9 @@
           </p>
         </li>
       </ul>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
     </div>
   </div>
 </section>
@@ -502,5 +546,6 @@
   </div>
 </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
   </body>
 </html>
