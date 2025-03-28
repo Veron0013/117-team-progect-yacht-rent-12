@@ -60,7 +60,7 @@
 .reviews-block-list {
     display: flex;
     flex-direction: row;
-    gap: 32px;
+    /*gap: 32px;*/
     /* Styles for 768px */
     text-align: center;
     justify-content: center;
@@ -69,13 +69,13 @@
 
 @media only screen and (min-width: 1280px) {
     .reviews-block-list {
-        gap: 26px;
+        /*gap: 26px;*/
     }
 }
 
 @media only screen and (min-width: 1440px) {
     .reviews-block-list {
-        gap: 32px;
+        /*gap: 32px;*/
     }
 }
 
